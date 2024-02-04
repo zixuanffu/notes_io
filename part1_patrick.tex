@@ -1,0 +1,202 @@
+\chapter{Vertical relation: Upstream (M) and Dowstream (R)}
+\section{Introduction}
+\paragraph{Vertical relation}
+Relationship between upstream and downstream parties: part supplier and manufacturer, manufacturer and retailer, franchiser and franchisee \emph{etc.} Whether a party is upstream or downstream depends on whether it is \emph{closer} to the consumer. For example: 
+\begin{itemize}
+    \item Brick-and-mortar store: supplier are upstream
+    \item Online platforms: supplier are downstream
+\end{itemize}
+\paragraph{Vertical restraint}
+Agreements between upstream and downstream parties: supply contracts, distribution contracts, licensing. Agreement/contract can serve different purposes. For example
+\begin{itemize}
+    \item Revenue sharing/pricing: linear pricing, \emph{non-linear} tariffs (\emph{e.g.} two part tariff). They can have a variety of names.
+    \begin{itemize}
+        \item Franchise fees
+        \item Quantity rebates
+        \item Fidelity rebates
+        \item Slotting fees: manufacturer pays the retailer first.
+        \item Menus of pricing schemes
+    \end{itemize}
+    \item Obligations/behavior restriction
+    \begin{itemize}
+        \item Service: M requires R provide x services to consumers.
+        \item Quantity: quotas
+        \item Price: Resale Price Maintenance (RPM), price ceiling/floor
+        \item Bundling
+        \item \textbf{Exclusivity}: exclusive territory, exclusive dealing
+    \end{itemize}
+    \item Integration/Merge and Acquisition: \emph{vertical} merge rather than horizontal.
+\end{itemize}
+\subsection{Antitrust Law}
+\paragraph{Sherman Act}
+\begin{enumerate}
+    \item Section 1: prohibits contracts (or conspiracies) that restrain trade or commerce
+    \item Section 2: prohibits monopolization or attempts to monopolize
+\end{enumerate}
+\paragraph{Treaty of Rome}
+\begin{enumerate}
+    \item Article 101: restricting competition is forbidden
+    \item Article 102: prohibits abuses of a dominant position
+    \begin{itemize}
+        \item exploitative abuses: unfair terms (excessive prices, discrim.)
+        \item exclusionary abuses: distorting competition (vert. foreclosure)
+    \end{itemize}
+\end{enumerate}
+
+\section{Vertical coordination}
+In this section, we will look at two coordination problems between M and R.
+\subsection{Double marginalization}
+\paragraph{Modeling choice}
+
+
+
+\paragraph{Solution concept and algorithm} (Subgame perfect) Nash equilibrium using backward induction.
+
+\paragraph{Result} R sets retail price p higher than the joint profit maximizing (\textit{jointly optimal}) retail price $p^M$.
+
+\paragraph{Policy} There are several solutions to the problem. Each has different instrument, for example, margin, price, quantity.
+\begin{enumerate}
+    \item Eliminate one \textbf{margin}: \emph{e.g.} introduce more R (remove downstream margin), M will set the jointly optimal price.)
+    \item Forcibly set $p^*$ as the \textbf{retail price} ceiling \footnote{The issue is that it requires M to have sufficient knowledge of the retail market.}
+    \item Contracting on \textbf{retail quantity}: impose a minimum sales target on R.
+    \item Align \textbf{incentive}: implement two-part tariff $\pa{w^*=c, F^*}$ \footnote{The fixed fee is used to share the profits.}
+\end{enumerate}
+
+\paragraph{Implication} The industry has incentive to remove double marginalization so as to maximize joint profit. The outcome is also good for the consumer. In this case, authority should \textit{laissez-faire}.
+
+\subsection{Retail effort issue}
+\paragraph{Modeling choice}
+\paragraph{Result} Not only does R sets retail price $p>p^M$, but also it provides effort $e<e^M$.
+\paragraph{Policy} Notice that on the demand side, \textbf{quantity} depends on \textbf{price} and \textbf{effort}. 
+\begin{enumerate}
+    \item Contract on two out of the \textbf{three dimensions}.
+    \item Align \textbf{incentive} retailer becomes the residual (\textit{total profit - fixed fee}) claimant.\footnote{Increase the number of targets doesn't necessarily require additional instruments.}
+\end{enumerate}
+\paragraph{Question} Can we also introduce intraband competition as in double marginalization? Answer: it doesn't generate the jointly optimal $p^M$ and $e^M$. The effect can be analysed on two extreme cases, depending on whether other Rs can freeride one retailer's effort.
+\begin{itemize}
+    \item Free riding: effort is lower than $e^M$
+    \item No free riding: effort can be either too low or too high. 
+\end{itemize}
+\subsection{Discussion}
+
+
+%%%
+\section{Horizontal coordination}
+
+\subsection{Upstream coordination}
+\paragraph{Modeling}
+There are $M_A$, $M_B$ selling differentiated product to retailer $R_1$.
+The first best result is such that as if $M_A$ and $M_B$ are competing directly on the market. \footnote{For example, the simplest Bertrand competition that we learn from undergrad econ.} Here, we analyse two cases. The case where seller $M$ has the bargaining power/makes the first move is more interesting. 
+\paragraph{Result} Similar as before, double marginalization.
+\paragraph{Solution} Following from the discussion in previous sections, in order to achieve industry-wide optimal outcome, we would need two-part tariff to align the incentive. 
+\paragraph{Discussion} \label{upstr_coor:discussion} With incentive aligned, there are three potential outcomes.
+\begin{itemize}
+    \item $\pa{M_A, R}$ exclusive dealing:
+    \item $\pa{M_B, R}$ exclusive dealing:
+    \item $\pa{M_A, M_A, R}$ common agency: 
+\end{itemize}
+\begin{remark}
+    In the absence of agency problems, there always exists a (more efficient) equilibrium with common agency.
+\end{remark}
+\begin{remark}
+    There's always ``\textit{agency rent}'' left to the retailer. Manufacturers can not appropriate all industry-wide profit.
+\end{remark}
+\begin{remark}
+    Public or secrete contracting doesn't matter.
+\end{remark}
+
+\subsection{Downstream coordination}
+There are one upstream $M$ and two downstream firms $R_1,R_2$. Let us suppose that $M$ has the bargaining power. 
+\begin{remark}
+    There exhibits differences between public contracting and secrete contracting.
+\end{remark}
+\subsection*{Public contract}
+\paragraph{Modelling: M power}
+$M$ wants to set $\pa{w_1,w_2}$ such that the market outcome is the monopoly differentiated/identical one.
+\paragraph{Result} If $M$ charge at costs as solving the double marginalization problem, then due to downstream competition, the price will be lower than monopoly price.
+\paragraph{Policy} Let $M$ charge \textbf{above costs}, less or equal to \textbf{below monopoly price}.
+
+\paragraph{Modelling: S power}
+Retailers offer tariff to $M$. 
+\paragraph{Policy} We introduce \textit{three-part tariff}--slotting fee. Each $R_i$ charges $M$ a certain amount of slotting fee $S_i$ and set $w_i=c_i$. If $R_i$ is the only retailer in the market, the industry $\pa{M,R_i}$ total profit is $\pi^M$. So it promised $M$ that $F_i=\pi^M$ will be given back as long as it is unique. If the $M$ agrees, then in the end $R_i$ gets $S_i$ and $Manufacturer$ gets $\pi^M-S_i$.
+\begin{remark}
+    This is \emph{de facto} exclusive dealing.
+\end{remark}
+Since the two retailer produces differentiated product, they can have different monopoly profit $\pi_i^M$. The more efficient retailer with higher $\pi_i^M$ wins the exclusive deal. 
+\paragraph{Discussion}
+Unlike the equilibrium discussed in \ref{upstr_coor:discussion}, with the slotting fee introduced above, only exclusive dealing equilibrium exists. Because both $M$ and $R$ could benefit from exclusive dealing.
+
+\subsection*{Secrete contract}
+\paragraph{Modeling: M power} 
+There is \textbf{upstream opportunism} when $R_i$, $R_j$ do not observe the contract received by the other. When $M$ is contracting with one retailer, it can free-rides on other retailer’s sales.
+\paragraph{Result} We discuss the outcome under Cournot and Bertrand competition.
+\begin{remark}
+    Depending on the beliefs of the retailer (\textit{``How to interpret deviant offers from $M$''}), there exists different equilibrium.
+\end{remark}
+\begin{itemize}
+    \item Cournot competition
+    \begin{itemize}
+        \item Passive belief: perfect competition outcome
+        \item Symmetric belief: monopoly outcome
+    \end{itemize}
+    \item Bertrand competition
+    \begin{itemize}
+        \item Passive belief: Direct Bertrand competition
+    \end{itemize}
+\end{itemize}
+\paragraph{Policy}
+\begin{itemize}
+    \item Reputation
+    \item Exclusive dealing
+    \item RPM: 
+        \begin{quote}
+            industry-wide price floor\\
+            bilateral price ceilings to squeeze downstream margin
+        \end{quote}
+\end{itemize}
+
+\paragraph{Implication}
+There are conflicting interests between firms’ profits and consumer surplus or total welfare. There's ground for intervention.
+%%% 
+\section{Competing vertical structures}
+\subsection{Strategic delegation/Competition among vertical structures}
+\paragraph{Modeling}
+insert a picture.
+There are two $M_A, M_B$. $M_A$ deals with $R_1^A, R_2^A$. Retailer only resells, therefore each retailer sells exactly the same product. Due perfect competition, retailers earn zero margin. For M, setting whole sale $w_i^j$ amounts to setting retail price. It is as if brand A and B are directly competing with each other.
+We regard this scenario as the \textbf{benchmark}.
+\paragraph{Policy} Now $M_A$ deals exclusively with $R_1^A$.
+\paragraph{Implication} The implementation of exclusive territory dampens competition (strategic delegation). It reduces intraband competition. Retail prices respond to rival’s wholesale prices, whih gives rise to higher wholesale (and retail) prices.
+\begin{remark}
+    clear conflict between private/social interests
+\end{remark}
+\paragraph{Discussion}
+Issue of observability and credibility. 
+Credibility differs in types of competition.
+\begin{quote}
+    Bertrand competition: strategic complementarity\\
+    Cournot competition: strategic substitute.
+\end{quote}
+    
+\subsection{Facilitating practice}
+\paragraph{Background} There exists different types of coordination/collusion. 
+\begin{itemize}
+    \item Tacit coordination
+    \item Explicit coordination: communication, meetings, down raids, leniency programs
+    \item Tacit coordination with explicit ``\textbf{facilitating practices}'': information sharing, trade associations, marketing practices (``price insurance''), multi-market contact, \textbf{vertical restraints} \emph{etc.} 
+\end{itemize}
+\paragraph{Modelling: Dynamic setting}
+There are two M $\pa{M_A,M_B}$, each dealing with a single retailer $\pa{R^A,R^B}$. There's no intraband competition. In a static setting with deterministic demand, each adopting two part tariff will achieve Bertrand competition outcome. However, now 1) Manufacturers are long lived with some discount factor $\delta$. 2)There's demand shock to both products.
+\paragraph{Policy} RPM as vertical restraint.
+\begin{remark}
+    Due to shock, price flexibility is desirable for the industry. There's a tradeoff between RPM (as collusion facilitating device) and price flexibility.
+\end{remark}
+\paragraph{Discussion}
+\paragraph{Implication}
+We know that RPM \emph{can} help firms collude and generate higher industry profit. We now analyze the impact of RPM on consumers. \\
+When shocks are on demand: consumers like price rigidity. Whether RPM is beneficial to customers depends on the tradeoff between price rigidity and (high) price level.\\
+When shock on cost: consumers prefer flexible prices. RPM reduces consumer welfare surely. 
+
+\section{Multilateral relations}
+\section{Exclusionary practices}
+
+
