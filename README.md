@@ -1,4 +1,4 @@
-# Industrial Organization
+# Syllabus: Industrial Organization
 **Institution**: Toulouse School of Economics  
 **Session**: Spring 2024  
 **Teachers**: Isis Durrmeyer, Bruno Jullien and Patrick Rey
@@ -14,7 +14,7 @@ empirical IO research (Isis Durrmeyer)
 ## Bibliography/references:
 ### Part I. Vertical relations (Patrick Rey, 3 weeks) 
 Introduction: vertical restraints, vertical integration and antitrust issues  
-Vertical coordination  
+**Vertical coordination**   
 Double marginalization 
 - Telser, Lester (1960), “Why Should Manufacturer Want Fair Trade,” Journal of Law and 
 Economics, 3: 86-105. 
@@ -34,7 +34,8 @@ as a Device for Facilitating Collusion,” RAND Journal of Economics, 16: 269-28
 - Bernheim, B. Douglas, and Michael D. Whinston (1986), “Common Agency,” 
 Econometrica, 54: 923-942. 
 - Bernheim, B. Douglas, and Michael D. Whinston (1998), “Exclusive Dealing,” Journal of 
-Political Economy, 106: 64-103. 
+Political Economy, 106: 64-103.  
+
 Upstream agents 
 - Hart, Oliver, and Jean Tirole (1990), “Vertical Integration and Market Foreclosure,” 
 Brookings Papers on Economic Activity: Microeconomics, 205-285.  
@@ -51,7 +52,8 @@ Downstream Markets,” RAND Journal of Economics, 38: 823-43.
 Intrabrand Coordination,” Journal of the European Economic Association, 9(4): 721-741.  
 - Rey, Patrick, and Michael D. Whinston (2013), “Does Retailer Power Lead to 
 Exclusion?,” RAND Journal of Economics, 44(1): 75-81. 
-Rivalry among vertical structures 
+
+**Rivalry among vertical structures**  
 Strategic delegation 
 - Bonanno, Giacomo and John Vickers (1988), “Vertical Separation,” Journal of Industrial 
 Economics, 36: 257-265. 
@@ -62,13 +64,15 @@ Structures: Precommitment and Renegotiation,” Econometrica, 63: 621-646.
 - Caillaud, Bernard, and Patrick Rey (1995), “Strategic Aspects of Vertical Delegation,” 
 European Economic Review, 39: 421-431. 
 - Slade, Margaret E. (1998), “Beer and the Tie: Did Divestiture of Brewer-owned Public 
-Houses Lead to Higher Prices?,” The Economic Journal, 108: 565-602. 
+Houses Lead to Higher Prices?,” The Economic Journal, 108: 565-602  
+
 Facilitating practices 
  
  
 - Jullien, Bruno, and Patrick Rey (2007), “Resale Price Maintenance and Collusion,” 
-RAND Journal of Economics, 38(4): 983-1001. 
-Interlocking relationships  
+RAND Journal of Economics, 38(4): 983-1001.   
+
+Interlocking relationships
 - Rey, Patrick, and Thibaud Vergé (2010), “Resale Price Maintenance and Interlocking 
 Relationships,” Journal of Industrial Economics, 58(4): 928-961. 
 - Collard-Wexler, Allan, Gautam Gowrisankaran and Robin Lee (2018), “"Nash-in-Nash" 
@@ -86,8 +90,9 @@ of Narrow Networks in Health Insurance,” mimeo.
 - Rey, Patrick, and Volker Nocke (2018), “Exclusive Dealing and Vertical Integration in 
 Interlocking Relationships,” Journal of Economic Theory, forthcoming.  
 - Rey, Patrick, and Thibaud Vergé (2016), “Secret contracting in multilateral relations,” 
-TSE Working Paper, n. 16-744. 
-Exclusionary practices 
+TSE Working Paper, n. 16-744.   
+
+**Exclusionary practices**   
 Naked exclusion 
 - Aghion, Philippe and Patrick Bolton (1987), “Contracts as a Barrier to Entry,” American 
 Economic Review, 77: 388-401. 
@@ -108,7 +113,8 @@ Downstream Competition,” International Journal of Industrial Organization, 26:
  
  
 - Rey, Patrick, and William S. Comanor (2000), “Vertical Restraints and the Market 
-Power of Large Distributors,” Review of Industrial Organization, 17(2): 135-153. 
+Power of Large Distributors,” Review of Industrial Organization, 17(2): 135-153.   
+
 Vertical integration and foreclosure  
 - Ordover, Janusz, Garth Saloner and Steven C. Salop (1990), “Equilibrium Market 
 Foreclosure,” American Economic Review, 80: 127-142. 
@@ -162,7 +168,7 @@ and Avoided Costs", Journal of the European Economic Association, 9(3): 462-495.
 - Weyl, Glen (2010), “A price theory of two-sided markets,” American Economic Review, 
 100(4), 1642-1672  
 ### Part III: Empirical (Isis Durrmeyer, 5 weeks) 
-  Detailed reading list provided in class. 
+  Detailed reading list provided in class.  
  Outline: 
 1. Demand and Supply Models of Product Differentiation 
 2. Measuring Market Power, Welfare and Merger Analysis 
