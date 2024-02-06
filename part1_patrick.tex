@@ -116,17 +116,25 @@ $M$ wants to set $\pa{w_1,w_2}$ such that the market outcome is the monopoly dif
 \paragraph{Result} If $M$ charge at costs as solving the double marginalization problem, then due to downstream competition, the price will be lower than monopoly price.
 \paragraph{Policy} Let $M$ charge \textbf{above costs}, less or equal to \textbf{below monopoly price}.
 
-\paragraph{Modelling: S power}
+\paragraph{Modelling: R power}
 Retailers offer tariff to $M$. 
-\paragraph{Policy} We introduce \textit{three-part tariff}--slotting fee. Each $R_i$ charges $M$ a certain amount of slotting fee $S_i$ and set $w_i=c_i$. If $R_i$ is the only retailer in the market, the industry $\pa{M,R_i}$ total profit is $\pi^M$. So it promised $M$ that $F_i=\pi^M$ will be given back as long as it is unique. If the $M$ agrees, then in the end $R_i$ gets $S_i$ and $Manufacturer$ gets $\pi^M-S_i$.
+\paragraph{Policy} We introduce \textit{three-part tariff}--slotting fee. Each $R_i$ charges $M$ a certain amount of slotting fee $S_i$ and set $w_i=c_i$. If $R_i$ is the only retailer in the market, the industry $\pa{M,R_i}$ total profit is $\pi^M$. So it promised $M$ that $F_i=\pi^M$ will be given back as long as it is unique. If the $M$ agrees, then in the end $R_i$ gets $S_i$ and Manufacturer gets $\pi^M-S_i$.
 \begin{remark}
     This is \emph{de facto} exclusive dealing.
 \end{remark}
 Since the two retailer produces differentiated product, they can have different monopoly profit $\pi_i^M$. The more efficient retailer with higher $\pi_i^M$ wins the exclusive deal. 
 \paragraph{Discussion}
-Unlike the equilibrium discussed in \ref{upstr_coor:discussion}, with the slotting fee introduced above, only exclusive dealing equilibrium exists. Because both $M$ and $R$ could benefit from exclusive dealing.
+Unlike the multiple equilibria discussed in \ref{upstr_coor:discussion}, with the slotting fee introduced above, only exclusive dealing equilibrium exists. Because both $M$ and $R$ could benefit from exclusive dealing.
+In any candidate "common agency" equilibrium, $M$ must be indifferent between accepting both or either offer. Otherwsise the favoured retailer could ask for better terms. Speicifically, we should have
+\begin{equation*}
+    \pi_1+\pi_2-S_1-S_2\geq \pi_1^M-S_1^M
+\end{equation*} where $\pi_i$ is the monopoly profit of $R_i$ and $S_i$ is the slotting fee under common agency. The RHS is counterpart under exclusive dealing.
+Therefore, we should have $\pi_2-S_2 =\pi_1^M-S_1^M-\pi_1+S_1$ (constraint should bind). Similarly, we have $\pi_1-S_1 =\pi_2^M-S_2^M-\pi_2+S_2$. Adding these two together, \begin{equation*}
+    \pi_1+\pi_2-S_1-S_2=\frac{1}{2}\pi_1^M-S_1^M+\pi_2^M-S_2^M<\max\set{\pi_1^M-S_1^M,\pi_2^M-S_2^M}
+\end{equation*}
+Therefore, the common agency equilibrium is not sustainable. $M$ and the more efficient $R_i$ would jointly benefit from exclusivity.
 
-\subsection*{Secrete contract}
+\subsection*{Secret contract}
 \paragraph{Modeling: M power} 
 There is \textbf{upstream opportunism} when $R_i$, $R_j$ do not observe the contract received by the other. When $M$ is contracting with one retailer, it can free-rides on other retailer’s sales.
 \paragraph{Result} We discuss the outcome under Cournot and Bertrand competition.
@@ -182,7 +190,10 @@ Credibility differs in types of competition.
 \begin{itemize}
     \item Tacit coordination
     \item Explicit coordination: communication, meetings, down raids, leniency programs
-    \item Tacit coordination with explicit ``\textbf{facilitating practices}'': information sharing, trade associations, marketing practices (``price insurance''), multi-market contact, \textbf{vertical restraints} \emph{etc.} 
+    \item Tacit coordination with explicit ``\textbf{facilitating practices}'': information sharing, trade associations, marketing practices (``price insurance''), multi-market contact, \textbf{vertical restraints} \emph{etc.}
+    \begin{quote}
+        \textbf{An interesting example is that by making the market more transparent, it can facilitate tacit collusion.} For example, the transportation authority releases vehicle registration record such that the vehicle manufacturer knows what others are producing without explicit communication. This help with tacit collusion. Another example is the gasoline market. The authority publishes the price of gasoline in different stations, trying to help consumer to find the cheapest gasoline. However, it also helps the gasoline station to tacitly collude.
+    \end{quote} 
 \end{itemize}
 \paragraph{Modelling: Dynamic setting}
 There are two M $\pa{M_A,M_B}$, each dealing with a single retailer $\pa{R^A,R^B}$. There's no intraband competition. In a static setting with deterministic demand, each adopting two part tariff will achieve Bertrand competition outcome. However, now 1) Manufacturers are long lived with some discount factor $\delta$. 2)There's demand shock to both products.
