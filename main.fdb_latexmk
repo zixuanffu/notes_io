@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1707082507 "c:/Users/16429/OneDrive/TSE/Cours/S2/Industrial Organization/Notes/notes_io/main.tex" "main.pdf" "main" 1707082509
-  "c:/Users/16429/OneDrive/TSE/Cours/S2/Industrial Organization/Notes/notes_io/main.tex" 1707078734 639 37ab9f96783ed904eb9ba9aa8aaa4df9 ""
+["pdflatex"] 1707393318 "c:/Users/16429/OneDrive/TSE/Cours/S2/Industrial Organization/Notes/notes_io/main.tex" "main.pdf" "main" 1707393320
+  "c:/Users/16429/OneDrive/TSE/Cours/S2/Industrial Organization/Notes/notes_io/main.tex" 1707383602 639 37ab9f96783ed904eb9ba9aa8aaa4df9 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1660316404 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1660317858 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcss1200.tfm" 1660317222 1536 809a177113b9dd743dafe00d0870078f ""
@@ -35,6 +35,7 @@
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1660315392 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1660315392 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1660315392 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1660315392 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1660315392 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb" 1660315392 24457 5cbb7bdf209d5d1ce9892a9b80a307cc ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1660315392 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
@@ -107,12 +108,12 @@
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660323515 1512323 21a09fd4583b222baca0cb428f6b3e78 ""
   "c:/texlive/2022/texmf.cnf" 1660323382 713 e69b156964470283e0530f5060668171 ""
   "figures/ihaveaquestion.jpg" 1707078734 14420 d7dc24f1f738fbcb9be06cb253f530f7 ""
-  "main.aux" 1707082509 3233 3d3c50fbbd574b0b446f8e1402baff10 "pdflatex"
-  "main.out" 1707082509 1414 219698f296eab0579491a05717c75f4c "pdflatex"
-  "main.tex" 1707078734 639 37ab9f96783ed904eb9ba9aa8aaa4df9 ""
-  "main.toc" 1707082509 1461 8c022e4e99bfec339743f33ffdae258c "pdflatex"
+  "main.aux" 1707393319 4256 190d7e5d7ec897c1283cca1bcb9819fc "pdflatex"
+  "main.out" 1707393319 2251 50eb775ffe0dc9432e606d6e0a94d0ec "pdflatex"
+  "main.tex" 1707383602 639 37ab9f96783ed904eb9ba9aa8aaa4df9 ""
+  "main.toc" 1707393319 2114 8ac59324a35f5a201c5b72b2ff6d1101 "pdflatex"
   "newcommand.tex" 1707078734 4207 ca4a9509487588afab4dae2f20a477f0 ""
-  "part2_bruno.tex" 1707082502 10868 c8aa979cf81954c031bfdbb1e77c33d3 ""
+  "part2_bruno.tex" 1707393316 15026 f7118721072e68add9d20bbf8659f74e ""
   (generated)
   "main.aux"
   "main.log"

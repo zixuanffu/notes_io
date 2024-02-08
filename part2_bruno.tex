@@ -181,13 +181,32 @@ So far, we assume a unique consumer allocation for given prices. However there m
     \item reduce some prices
     \item choose inefficient price structure
 \end{itemize}
+
 Suppose there are two homogenous sides of size 1, each with no intrinsic value and network externality $\beta_s$ and $\beta_b$. For any pair of positive prices less than the externality, there are two equilibrium allocations of consumers in the subgame 
 \begin{itemize}
-    \item Consumer optimistic beliefs: all consumers join
-    \item Consumer pessimistic beliefs: no consumer joins.
+    \item Consumer optimistic beliefs: all consumers join. (Pareto optimal)
+    \item Consumer pessimistic beliefs: no consumer joins. (Nobody joins with a positive price.)
 \end{itemize}
-The allocation where all consumers joins dominates the alloaction where none join. In the latter case there is a coordination failure.
+Facing pessimistic belief, if$p_b\le 0, p_s=\beta_s$, $n_s=n_b=1$ is the unique equilibrium.
+The allocation where all consumers joins dominates the alloaction where none join. In the latter case there is a coordination failure. (We can have multiple equilibria and we can construct a ranking of them.)
 Facing pessimistic beliefs, the platform has no choice than to set one price (slightly) below zero and then to charge a positive price $\beta_j$ for the other side : if $\beta_s+\beta_b>2c>\max \brac{\beta_s,\beta_b}$ the platform cannot operate!
+Extensions: $k$-sided markets.
+\begin{equation}
+    u_i=\alpha_i + \beta \sum_{j\neq i} n_j \to p_i \text{price setting} 
+\end{equation}
+Then the elimination of dominated strategies:
+\begin{equation}
+    \begin{cases}
+        p_1=\alpha_1\\
+        p_2=\alpha_2+\beta_2\\
+        p_3=\alpha_3+2\beta_3\\
+    \end{cases}
+\end{equation}
+$\pi^\text{pessimistic} = \sum \alpha_i + \max_{\sigma \text{is permutation}} \sum_{i=1}^{k} \# \set{\sigma(j)<\sigma(i)}\beta_i$
+positive network externalities are necessary here to ensure a ranking of equilibria.
+
+\textbf{Identical price}
+iteration...
 \subsection{Business model}
 \paragraph{Coordination issues} New platforms need to bring at
 least one side “on board” to start the activity. Platforms have an interest in inducing efficient usage, insofar that they can capture the efficiency gains. For example, \begin{itemize}
@@ -195,3 +214,52 @@ least one side “on board” to start the activity. Platforms have an interest 
     \item Tying and bundling may help coordinate consumers,
     \item Vertical integration also helps by securing some participation on one side.
 \end{itemize}
+
+Divide and conquer: bribe part of the consumers such that the entrants can not enter (left with not enough consumers to make a profit).
+
+\section{Hotelling model in two-sided markets}
+\subsection{Review}
+The consumer's utility takes the form of $u-p_i-t\abs{x-x_i}$. The indifferent consumer is at the point $\frac{1}{2}-\frac{p_1-p_2}{2t}$ where $t$ is the transportation costs because. Thus seller 1 will get the amount of consumers in the interval $\brac{0,\frac{1}{2}-\frac{p_1-p_2}{2t}}$ and seller 2 will get the rest. The profit of seller 1 is \begin{equation*}
+    \pi_1=\pa{p_1-c}\pa{\frac{1}{2}-\frac{p_1-p_2}{2t}}.
+\end{equation*}
+The optimal price is \begin{equation*}
+    p_1^*=c+t.
+\end{equation*}
+\subsection{Competing platforms: single homing case}
+\paragraph{Introduction}
+For both sellers (S) and buyers (B), Platform 2 is an imperfect substitute for Platform 1 whatever the relations between S1 and B2 types. Each platform offers a limited access to the other side.
+\\ Competition or tipping may prevail, depending on
+\begin{itemize}
+    \item Initial conditions
+    \item Importance of platform differentiation vs network effects
+\end{itemize}
+
+\subsection{Black board: single homing case}
+\paragraph{Framework}
+There are aass 1 agents $i$ of type 1 and 2 (representing buyer and seller on each side). Two platforms labeled by $I$ (incumbent) and $E$ (entrant).\\
+The utility of agent $i$ on platform $A$ is $$u_in_j^A-p_i^A$$ with \begin{align*}
+    u_1+u_2=1\\
+    u_2>\frac{1}{2}>u_1>0
+\end{align*}
+\paragraph{Game} First the platforms fix prices and then the agents choose the platform. 
+\paragraph{Equilibrium} We are looking for equilibria where platform $I$ has maximal profit, sustained by the fact that consumers do not believe that others will join E ($j$-users think $n_i^I=1$ whenever it is not a dominated strategy to join $I$).
+Therefore, for platform $E$ to attact agent $i$, we must have $0-p_i^E\ge 0-p_i^I$. 
+Then, j-users will
+register with E if $$u_j-p_j^E \ge \max\bra{-p_j^I,0} $$ that it, \begin{itemize}
+    \item staying with $I$
+    \item not joining any platform
+\end{itemize}
+We are maximizing $I$'s profit and stands from the perspective of $I$. \textbf{No strategy of $I$ must give strictly positive profit to platform $E$}. The profit of $E$ is $$p_i^E+p_j^E\le p_i^I-u_i+u_j-\max\set{-p_j^I,0}.$$ Therefore we as platform $I$ can not have $p_i^I,p_j^I>0$
+Similarly, let's consider the case where $E$ is trying to attract $j$ users. By the same reasoning the profit of $E$ is $$p_i^E+p_j^E\le p_j^I-u_j+u_i-\max\set{-p_i^I,0}.$$ The two condistions need to be satitstfied so as to exclude platform $E$ from entering.
+At the same time, for platform $I$ to attract agents, we must have $$p_1\le u_1,\ p_2\le u_2.$$
+All constraints must hold.
+The first two constraints intersect at $\pa{u_1-u_2,2\pa{u_2-u_1}}$ and the last two at $\pa{u_1-u2,u_2}$. We just need to compare the two.
+\begin{remark}
+    There's non monoticity of profits. It peaks at $u_2=2u_1=\frac{2}{3}$. 
+\end{remark}
+\paragraph{Discussion} Competition with access fees and transaction fees kill profits of the incumbent $I$. 
+The reasoning is as follows:\begin{itemize}
+    \item To attract $i$: $-p_i^E>u_I-t_i^I-p_i^I$
+    \item To attact $j$: $u_j-t_j^E-p_j^E>\max\set{-p_j^I,0}$
+\end{itemize}
+The maximum profit of $E$ is 

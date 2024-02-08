@@ -18,3 +18,12 @@
 \contentsline {subsection}{\numberline {1.4.1}Background}{6}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Business model}{7}{subsection.1.4.2}%
 \contentsline {paragraph}{Coordination issues}{7}{section*.11}%
+\contentsline {section}{\numberline {1.5}Hotelling model in two-sided markets}{8}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Review}{8}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Competing platforms: single homing case}{8}{subsection.1.5.2}%
+\contentsline {paragraph}{Introduction}{8}{section*.12}%
+\contentsline {subsection}{\numberline {1.5.3}Black board: single homing case}{8}{subsection.1.5.3}%
+\contentsline {paragraph}{Framework}{8}{section*.13}%
+\contentsline {paragraph}{Game}{8}{section*.14}%
+\contentsline {paragraph}{Equilibrium}{9}{section*.15}%
+\contentsline {paragraph}{Discussion}{9}{section*.16}%
